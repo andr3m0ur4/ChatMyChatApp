@@ -1,12 +1,14 @@
-body{
+body {
 	background-color: #228b22;
 	background-size: cover;
 }
-#form2{
+
+#form2 {
 	background-color: #228b22;
 	border: 1px solid black;
 	width: 390px;
-	margin: 190px;
+	margin: 190px auto;
+	margin-bottom: 0;
 	padding: 50px;
 	text-align: center;
 	-webkit-box-sizing: border-box;
@@ -17,37 +19,30 @@ body{
 	border-bottom-right-radius: 38px;
 	border-bottom-left-radius: 38px;
 }
-input[type=password]{
-	width: 100%;
+
+h2 {
+	text-align: center;
+	font-family: Tahoma;
+	color: white;
+}
+
+input[type=text], input[type=email], input[type=password] {
+	width: 90%;
 	height: 0px;
 	padding: 15px 20px;
+	padding-right: 0;
 	margin: 3px 0;
 	border-top-right-radius: 38px;
 	border-top-left-radius: 38px;
 	border-bottom-right-radius: 38px;
 	border-bottom-left-radius: 38px;
 }
-input[type=email]{
-	width: 100%;
-	height: 0px;
-	padding: 15px 20px;
-	margin: 3px 0;
-	border-top-right-radius: 38px;
-	border-top-left-radius: 38px;
-	border-bottom-right-radius: 38px;
-	border-bottom-left-radius: 38px;
+
+input[type=email], input[type=password] {
+	margin-top: 6px;
 }
-input[type=text]{
-	width: 100%;
-	height: 0px;
-	padding: 15px 20px;
-	margin: 3px 0;
-	border-top-right-radius: 38px;
-	border-top-left-radius: 38px;
-	border-bottom-right-radius: 38px;
-	border-bottom-left-radius: 38px;
-}
-#btn2{
+
+#btn2 {
 	background-color: #4caf50;
 	border: none;
 	color: white;
@@ -58,14 +53,27 @@ input[type=text]{
 	display: inline-block;
 	font-size: 10px;
 	text-shadow: 2px 2px 4px black;
+	margin-top: 6px;
+	margin-bottom: 20px;
 	width: 100px;
 	border-top-right-radius: 38px;
 	border-top-left-radius: 38px;
 	border-bottom-right-radius: 38px;
 	border-bottom-left-radius: 38px;
 }
-h2{
-	text-align: center;
-	font-family: tahoma;
-	color: white;
+
+span {
+	background-color: white;
+	border-radius: 38px;
+	padding: 5px 10px;
+	color: green;
+}
+
+a {
+	color: red;
+	font-size: 18px;
+}
+
+.clear {
+	clear: left;
 }

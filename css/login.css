@@ -8,6 +8,7 @@ body {
 	border: 1px solid black;
 	width: 390px;
 	margin: 190px auto;
+	margin-bottom: 0;
 	padding: 50px;
 	text-align: center;
 	-webkit-box-sizing: border-box;
