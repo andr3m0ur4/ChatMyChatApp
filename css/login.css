@@ -55,10 +55,18 @@ input[type=password] {
 	text-shadow: 2px 2px 4px black;
 	width: 100px;
 	margin-top: 6px;
+	margin-bottom: 20px;
 	border-top-right-radius: 38px;
 	border-top-left-radius: 38px;
 	border-bottom-right-radius: 38px;
 	border-bottom-left-radius: 38px;
+}
+
+span {
+	background-color: white;
+	border-radius: 38px;
+	padding: 5px 10px;
+	color: red;
 }
 
 a {

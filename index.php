@@ -24,16 +24,14 @@
 
 					<div class="clear"></div>
 					
-					<?php  
-						if (isset($_GET['error'])){
-					?>
-					<tr>
-						<td></td><td><span style="color: red;">Verifique seu Email ou Senha</span></td>
-					</tr>
-					<?php  
-						}
-					?>
+					<?php if (isset($_GET['error'])) : ?>
+						<div>
+							<span>Verifique seu Email ou Senha</span>
+						</div>
+					<?php endif	?>
+
 				</div>
+
 				<h4>
 					<a href="./pages/signup.php">Criar Conta!</a>
 				</h4>
